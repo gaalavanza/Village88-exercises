@@ -1,0 +1,167 @@
+html{
+    max-width: 970px;
+}
+body {
+    background-color: #303030;
+    font-family: "Fira Sans", "Source Sans Pro", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: rgb(243,243,243);
+    background-color: #8792bf;
+    border-bottom: 5px solid #4e5c93;
+    margin-bottom: 10px;
+    width: 100%;
+}
+    nav .logo {
+        display: inline-block;
+        width: 50px;
+        vertical-align: middle;
+        
+    }
+    nav .links {
+        display: inline-block;
+        list-style-type: none;
+        
+    }
+        nav .links .nav-link {
+            display: inline-block;
+            margin: 0 5px;
+        }
+    nav form {
+        display: inline-block;
+        margin-left: 140px;
+
+    }
+    #php{
+    position: inline-block;
+    left: 3%;
+    top: 2%;
+    width: 4%;
+    margin-left: 30px;
+    }
+    .menu{
+        float: left;
+        color: rgb(243,243,243);
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .quick-nav a{
+        float: right;
+        color: white;
+        font-size: 12px;
+        margin-left: 1px;
+        margin-right: 10px;
+    }
+    .content{
+        background-color: rgba(242,242,242,255);
+        display: inline-block;
+        width: 70%;
+        padding: 15px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .overview{
+        width: 23%;
+        float: right;
+    }
+    .overview p{
+        color: rgb(243,243,243);
+        font-size: 12.5px;
+        margin-bottom: 5px;
+    }
+        .overview hr{
+            margin: 1px 0px;
+        }
+        .overview .inactive{
+            color: rgb(243,243,243);
+            font-size: 12.5px;
+            text-decoration: none;
+        }
+        .overview .active{
+            color: rgb(219,112,147);
+            font-size: 12.5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+hr{
+    border-top: 1px dotted;
+}
+    #colored{
+        border-style:  dotted;
+        background-color: pink;
+        height: 0.1px;
+    }
+h2{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+h3{
+    width: 100%;
+    margin-bottom: 0px;
+}
+    .add-note{
+        margin-left: 590px;
+        font-size: 12px;
+    }
+        .add-note img{
+            display: inline-block;
+            width: 15%;
+        }
+    #option{
+        float: right;
+        font-size: 12px;
+        line-height: 0.5;
+    }
+            #option li{
+                display: inline-block;
+                margin-left: 15px;
+            }
+                li #req{
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+    #lang{
+        font-size: 12px;
+        width: 160px;
+    }
+p{
+    line-height: 1.5;
+    font-size: 12.5px;
+    text-align: left;
+}
+    .user-note-header{
+            width: 100%;
+            height: 0;
+            margin-bottom: 30px;
+    }
+    .add-note{
+        font-size: 12px;
+        display: block;
+        width: 80px;
+        margin-top: -40px;
+        margin-left: 560px;
+    }
+        ul a{
+            font-size: 12.5px;
+        }
+h4{
+    color: rgb(152,119,123);
+
+}
+footer{
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: 34px;
+}
+    footer a{
+        color: rgb(243,243,243);
+        text-decoration: none;
+        margin-right: 15px;
+    }

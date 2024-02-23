@@ -1,0 +1,96 @@
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-top:20px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+    .container{
+        width: 940px;
+        background-color: white;
+        margin: 0px auto;
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+        #june2021{
+            position: fixed;
+            transform: scale(0.4); 
+            bottom: 800px;
+            left: 0px;
+            right: 750px;
+            top: 0px;
+            display: inline-block; 
+            max-width: 100%;
+        }
+        #august2021{
+            position: fixed;
+            transform: scale(0.4);
+            bottom: 800px;
+            left: 750px;
+            right: 400px;
+            top: 0px;
+            display: inline-block; 
+            max-width: 100%;
+        }
+        .weekdays{
+            margin: 0px;
+            padding: 10px 0;
+        }
+        .weekdays li{
+            display: inline-block;
+            width: 120px;
+            height: 40px;
+            align-items: center;
+            color: black;
+            border: 1px solid black;
+        }
+        .days{
+            margin: 0px;
+            padding: 10px 0;
+        }
+        .days li{
+            display: inline-block;
+            width: 120px;
+            height: 40px;
+            align-items: center;
+            margin-bottom: 5px;
+            border: 1px solid black;
+        }
+        .blank:nth-child(-n+4){
+            background-color: rgba(204, 202, 202, 0.61);
+            border: none;
+            margin: 1.5px;
+            color: rgb(204, 202, 202);
+        }
+        #blue{
+            background-color: rgba(91,155,213,255);
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+        #green{
+            background-color: rgba(169,208,142,255);
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+
+
+
+
+
+
+
+
